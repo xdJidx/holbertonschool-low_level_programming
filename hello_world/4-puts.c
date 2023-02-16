@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-/*main : affiche le texte avec puts*/ 
+/**
+ *main - puts
+ *
+ *return: always 0
+ */
 
-int main ( void )
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
