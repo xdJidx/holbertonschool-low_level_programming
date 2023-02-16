@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *main - puts
- *
- *return: always 0
- */
+* main - Print
+*
+* Return: always = 0
+*/
 
 int main(void)
 {
