@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  *main - fonction principale
@@ -11,17 +11,11 @@
 
 int main(void)
 {
-char charType;
-int intType;
-int intLongType;
-int intLongLongType;
-float floatType;
-
-printf("Size of a char: %zu byte(s)\n", sizeof(charType);
-printf("Size of a int: %zu byte(s)\n", sizeof(intType);
-printf("Size of a long int: %zu byte(s)\n", sizeof(intLongType);
-printf("Size of a long long int: %zu byte(s)\n", sizeof(intLongLongType);
-printf("Size of a float: %zu byte(s)\n", sizeof(floatType);
+printf("Size of a char: %zu byte(s)\n", sizeof(char);
+printf("Size of a int: %zu byte(s)\n", sizeof(int);
+printf("Size of a long int: %zu byte(s)\n", sizeof(int long);
+printf("Size of a long long int: %zu byte(s)\n", sizeof(int long long);
+printf("Size of a float: %zu byte(s)\n", sizeof(float);
 
 return (0);
 }
