@@ -2,8 +2,8 @@
 
 /**
  * add - do an addition of 2 Number
- * @x
- * @y
+ * @x: Nombre
+ * @y: Nombre
  * Return: return addition
  */
 
