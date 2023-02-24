@@ -12,15 +12,16 @@ void print_square(int size)
 
 	if (size > 0)
 	{
-		for (lign = 0; lign < size; lign++)
+		for (lign = 1; lign <= size; lign++)
 		{
-			for (col = 0; col < size; col++)
+			for (col = 1; col <= size; col++)
 				_putchar('#');
 
-			if (col == size - 1)
-				continue;
 			_putchar('\n');
 		}
 	}
+	else
+	{
 	_putchar('\n');
+	}
 }
