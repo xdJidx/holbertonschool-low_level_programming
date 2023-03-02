@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * reverse_array - affiche l'inverse d'un tableau de nombre
- * @a: le pointer 
+ * reverse_array - affiche l'inverse d'un tableau de nombr
+ * @a: le pointer
  * @n: Nombre d'élément de l'array
  */
 
