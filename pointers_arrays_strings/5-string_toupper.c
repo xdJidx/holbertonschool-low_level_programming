@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *string_toupper - Imprime toutes les lettres
+ * string_toupper - Imprime toutes les lettres
  * minuscule d'un string en majuscule
  * @str: chaine de caractere
  *
- * Retourne: la chaine de caractere en majuscule
+ * Return: la chaine de caractere en majuscule
  */
 
 char *string_toupper(char *str)
