@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * atoi - Permet d'afficher une suite de caractère
+ * _atoi - Permet d'afficher une suite de caractère
  * en chiffre.
  * @s: string
  * Return: la suite de chiffre et son signe
