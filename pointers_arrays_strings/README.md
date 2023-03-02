@@ -1,6 +1,8 @@
-C - Pointers, arrays and strings
+Projet 2 C - More pointers, arrays and strings
 
 Quiz
 
-Tasks
+
+Task
+
 
