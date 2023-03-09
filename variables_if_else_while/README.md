@@ -67,7 +67,10 @@ while (a < b)
 ```
 ---------------------------------
 ## Tasks
-
+Pour l'ensemble des tasks, afin de compiler et tester si le code fonctionne nous utiliserons la commande suivante :
+```
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 numeroFichier-nomFichier.c -o numeroFichier-nomFichier
+```
 ### 0. Positive anything is better than negative nothing  
 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
 ```
