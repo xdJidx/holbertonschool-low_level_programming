@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
         return (0);
 }
 ```
-1. Silence is argument carried out by other means  
+### 1. Silence is argument carried out by other means  
 Write a program that prints the number of arguments passed into it.  
 * Your program should print a number, followed by a new line
 ```
@@ -96,7 +96,7 @@ int main(int argc, char __attribute__((unused)) *argv[])
         return (0);
 }
 ```
-2. The best argument against democracy is a five-minute conversation with the average voter  
+### 2. The best argument against democracy is a five-minute conversation with the average voter  
 Write a program that prints all arguments it receives.  
 * All arguments should be printed, including the first one
 * Only print one argument per line, ending with a new line
@@ -123,7 +123,7 @@ int main(int argc, char *argv[])
         return (0);
 }
 ```
-3. Neither irony nor sarcasm is argument  
+### 3. Neither irony nor sarcasm is argument  
 Write a program that multiplies two numbers.  
 * Your program should print the result of the multiplication, followed by a new line
 * You can assume that the two numbers and result of the multiplication can be stored in an integer
@@ -156,7 +156,7 @@ int main(int argc, char *argv[])
         return (0);
 }
 ```
-4. To infinity and beyond  
+### 4. To infinity and beyond  
 Write a program that adds positive numbers.  
 * Print the result, followed by a new line
 * If no number is passed to the program, print 0, followed by a new line
