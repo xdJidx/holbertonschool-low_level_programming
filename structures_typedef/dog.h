@@ -1,8 +1,11 @@
-#include <stdio.h>
+#ifndef dog_H
+#define dog_H
 
-/*
- * dog - paramettre d'un chien
- *
+/**
+ * struct dog - paramettre d'un chien
+ * @name: nom du chien
+ * @age: age du chien
+ * @owner: cri
  */
 
 struct dog
@@ -11,3 +14,5 @@ struct dog
 	float age;
 	char *owner;
 };
+
+#endif
