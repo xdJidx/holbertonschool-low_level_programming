@@ -5,7 +5,7 @@
 /**
  * print_numbers - affiche les nombres suivi par une nouvelle ligne
  *
- * @separtaor: élément entre chaque n
+ * @separator: élément entre chaque n
  * @n: éléments int dans la fonction
  * @...: all variable in function
  */
