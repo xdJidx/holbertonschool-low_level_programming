@@ -5,8 +5,7 @@
  * binary_to_uint - Convert a binary to unsigned int
  * @b: binary number to convert to int
  *
- * Return: 0 if another number are on b
- * 		else return convert num
+ * Return: 0 if another number are on b else return convert num
  */
 
 unsigned int binary_to_uint(const char *b)
