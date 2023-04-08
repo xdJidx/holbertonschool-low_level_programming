@@ -6,17 +6,18 @@
  * insert_dnodeint_at_index - Insert un nouveau noeud et donne sa position
  * @h: Un pointer en haut de la liste dlinstint_t
  * @n: l'integer du nouveau noeud
- *
+ * @idx: La position où est inséré l'index
  * Return: Si la fonction echoue - NULL
- * 		Sinon - L'adresse du nouveau noeud
+ * Sinon - L'adresse du nouveau noeud
  */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new, *tmp;
+
 	tmp = *h;
-	
-	if ( idx == 0)
+
+	if (idx == 0)
 		return (add_dnodeint(h, n));
 
 	for (; idx != 1; idx--)
@@ -39,5 +40,5 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	tmp->next->prev = new;
 	tmp->next = new;
 
-	return(new);
+	return (new);
 }
