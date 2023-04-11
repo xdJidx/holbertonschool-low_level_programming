@@ -7,7 +7,7 @@
  * @filename: Le fichier à lire et afficher
  * @letters: la taille du fichier, son nombre de character
  *
- * return: Le nombre de lettre lu et affiché
+ * Return: le nombre de lettre lu et l'affiche
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
